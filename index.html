@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>My Portfolio — Home</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <meta
+      name="description"
+      content="Portfolio showcasing projects, skills and contact."
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">My<span>Portfolio</span></a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          id="navToggle"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="hamburger"></span>
+        </button>
+        <nav id="main-nav" class="nav" aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <h1>Build. Learn. Deploy.</h1>
+          <p>
+            Responsive multipage website starter — clean, accessible, and ready
+            to deploy.
+          </p>
+          <p>
+            <a class="btn" href="about.html">See my story</a>
+            <a class="btn ghost" href="contact.html">Contact me</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="features container" id="projects">
+        <h2>Selected Projects</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Project A</h3>
+            <p>Short description of Project A.</p>
+            <a class="card-link" href="#">View details →</a>
+          </article>
+          <article class="card">
+            <h3>Project B</h3>
+            <p>Short description of Project B.</p>
+            <a class="card-link" href="#">View details →</a>
+          </article>
+          <article class="card">
+            <h3>Project C</h3>
+            <p>Short description of Project C.</p>
+            <a class="card-link" href="#">View details →</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta container">
+        <h2>Want to collaborate?</h2>
+        <p>
+          I'm open to internships and freelance projects. Let's build something
+          together.
+        </p>
+        <a class="btn" href="contact.html">Get in touch</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> My Portfolio — Built with care</p>
+        <nav aria-label="social">
+          <ul class="social-list">
+            <li><a href="#" rel="noopener">Twitter</a></li>
+            <li>
+              <a href="https://github.com/Sheldon-123240" rel="opener"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script/script.js" defer></script>
+  </body>
+</html>
